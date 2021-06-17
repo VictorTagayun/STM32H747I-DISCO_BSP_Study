@@ -1,4 +1,4 @@
-## Study how to init all the peripherals by BSP Drivers. RCC is the only initialized in CubeMX with 400Mhz (M7) & 200Mhz (M4) as this is the optimized freq for "most" peripherals espcially the LCD
+## Study how to init all the peripherals by BSP Drivers. RCC and UART are the only peripherals initialized in CubeMX with 400Mhz (M7) & 200Mhz (M4) as this is the optimized freq for "most" peripherals espcially the LCD 
 
 ## CubeMX Initiallization RCC and UART (minimum)  
 
