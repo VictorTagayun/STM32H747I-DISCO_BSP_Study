@@ -1,8 +1,11 @@
+# STM32H747I-DISCO Study how to setup BSP 
+
 ## Introduction and Purpose
 
-** STM32H747XIH6 is a Dual core Cortex-M7 and Cortex-M4 MCU.
-** The STM32H747I-DISCO Discovery kit is a complete demonstration and development platform for STMicroelectronics STM32H747XIH6 microcontroller, designed to simplify user application development. 
-** Study how to init most peripherals by BSP Drivers. RCC and UART are the only peripherals initialized in CubeMX with 400Mhz (M7) & 200Mhz (M4) as this is the optimized freq for "most" peripherals espcially the LCD.
+** How to setup BSP for STM32H747I-DISCO   
+** STM32H747XIH6 is a Dual core Cortex-M7 and Cortex-M4 MCU.  
+** The STM32H747I-DISCO Discovery kit is a complete demonstration and development platform for STMicroelectronics STM32H747XIH6 microcontroller, designed to simplify user application development.   
+** Study how to init most peripherals by BSP Drivers. RCC and UART are the only peripherals initialized in CubeMX with 400Mhz (M7) & 200Mhz (M4) as this is the optimized freq for "most" peripherals espcially the LCD.  
 
 ## CubeMX Initiallization RCC and UART (minimum)  
 
